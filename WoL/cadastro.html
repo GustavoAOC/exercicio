@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro / Wiki of legends</title>
+  </head>
+  <body>
+    <header>
+        <h1 style="text-align: center;color: aliceblue;">WIKI OF LEGENDS</h1>
+        <nav>
+          <a href="index.html"><button class="menu-item">Pãgina Inicial</button></a>
+          <a href="galeria.html" rel="prev"><button class="menu-item">Campeôes</button></a>
+          <a href="cadastro.html"><button class="menu-item">Cadastre-se</button></a>
+      </nav>
+      </header>
+    <main>
+    <p style="text-align: center;">Venha fazer parte da Wiki of legends para melhorarmos nosso site juntos!</p>
+    <p style="text-align: center;">Primeiro nos conte um pouco de você</p>
+    <form style="text-align: center;">
+        <label for="user">Usuário</label><br>
+        <input type="text" name="user" id="user"><br>
+        <label for="password">Senha</label><br>
+        <input type="password" name="password" id="password"><br>
+        <label for="date">Data de nascimento</label><br>
+        <input type="date" name="idade" id="idade"><br>
+        <label for="tag">Qual é seu usuário no lol? Ex: nome#tag</label><br>
+        <input type="text" name="tag" id="tag"><br>
+        <label for="champion">Qual seu campeão favorito?</label><br>
+        <input type="text" name="champion" id="champion"><br>
+        <label for="gamemode">Qual seu modo de jogo preferido?</label><br>
+        <select name="gamemode" id="gamemode">
+            <option value="null">-</option>
+            <option value="ranked">Ranqueado</option>
+            <option value="normal">Casual</option>C
+            <option value="aram">ARAM</option>
+            <option value="tft">Teamfight Tactics</option>
+        </select><br><br>
+        <input type="submit" name="enviar" id="enviar" style="height: auto;">
+    </form>
+  </main>
+  <footer style="background-color: #0c2864;text-align: center;">
+    <p>Esse site foi criado pelo aluno do senai GUSTAVO AUGUSTO DE OLIVEIRA CARVALHO</p>
+  </footer>
+  </body>
+</html>

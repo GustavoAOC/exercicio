@@ -104,3 +104,7 @@ main{
   margin: 30px;
   padding: 50px;
 }
+image,video,audio iframe{
+  margin: 0 auto;
+  display: block;
+}
